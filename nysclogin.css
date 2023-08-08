@@ -1,0 +1,457 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css);
+
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(./image/nysc\ \ picture1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 5s all;
+    animation-name: fix;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes fix{
+
+    0%{
+        background-image: url(./image/nysc\ \ picture1.jpeg);
+        background-size: cover;
+        
+    
+}
+50%{
+    background-image: url(./image/2021-10-22\ fixed\ \(1\).jpeg);
+    background-size: cover;
+    
+}
+
+100%{
+    background-image: url(./image/nysc\ \ picture1.jpeg);
+    background-size: cover;
+
+}
+}
+
+
+
+
+.container{
+    
+}
+.nysc{
+    display: flex;
+    margin-left: 530px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.all{
+  display: grid;
+  margin-left: 200px;
+  margin-top: 50px;
+ 
+}
+.root{
+   
+}
+
+.square{
+    width: 550px;
+    height: 500px;
+    background-color: rgb(247,247,246);
+    margin-left: 530px;
+    border-radius: 10px;
+  
+    }
+    .user{
+        width: 520px;
+        height: 50px;
+        background-color: rgb(199,218,197);
+        margin-left: 545px;
+        margin-top: -460px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+      }
+      .existing{
+     font-size: 20px;
+     line-height: 21px;
+     font-weight: 700;
+     color: rgb(28,73,26);
+     margin-left: 10px;
+      }
+      .mail{
+        display: flex;
+        margin-left:555px;
+      }
+      .solid{
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+        color: #535b60;
+      }
+
+      .address{
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+        color: #535b60;
+      }
+      .input1{
+        margin-left: 545px;
+        width: 510px;
+       height: 40px;
+       border-radius: 8px;
+       margin-bottom: 50px;
+       border: 2px solid rgb(204,204,204);
+      }
+      
+      .resume{
+        width: 100px;
+        height: 40px;
+        background-color: #2a9439;
+        margin-left: 960px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+        border-radius: 4px;
+      }
+      .resum{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23px;
+        color: #ffffff;
+      }
+      .resume:hover{
+        background-color: purple;
+      }
+
+      .forgot{
+        margin-left: 555px;
+        }
+      
+        .forge{
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 20px;
+            color: #2f556d;
+      }
+      .forge:hover{
+        text-decoration: underline;
+      }
+
+      .shadow{
+        height: 500px;
+      }
+
+      .fixed{
+        display: flex;
+        width: 100%;
+        height: 50px;
+        background-color: rgb(1,53,0);
+        align-items: center;
+        justify-content: space-around;
+        position: fixed;
+        bottom: 0%;
+    }
+    .borderr{
+        width: 100%;
+        border: 2px solid rgb(150,2,0);
+        position: fixed;
+        bottom: 50px;
+        
+    }
+    .fixo{
+        display: flex;
+        align-items: center;
+    }
+    .powered{
+        text-decoration: none;
+        color: #edf0f6;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    .powered:hover{
+        text-decoration: underline;
+    }
+    .copyright{
+        text-decoration: none;
+        color: #edf0f6;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    
+    .privacy{
+        text-decoration: none;
+        color: rgb(77,136,171);
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    .privacy:hover{
+        text-decoration: underline;
+    }
+
+    @media(max-width:1910px){
+        .all{
+            margin-left: 200px;
+        }
+    }
+    @media(max-width:1700px){
+        .all{
+            margin-left: 130px;
+        }
+    }
+
+    @media(max-width:1325px){
+        .all{
+            margin-left: -100px;
+        }
+    }
+    @media(max-width:1472px){
+        .all{
+            margin-left: -200px;
+        }
+    }
+
+
+    @media(max-width:1002px){
+        .all{
+            margin-left: -250px;
+           
+        }
+    }
+    @media(max-width:949px){
+        .all{
+           margin-left: -350px;
+        }
+    }
+
+    
+    @media(max-width:760px){
+        .root{
+          margin-top: -40px;
+         
+        }
+      
+      .square{
+            width: 500px;
+            height: 300px;
+            background-color: rgb(247,247,246);
+            margin-left: 365px;
+            border-radius: 10px;
+          
+            }
+            .user{
+                width: 470px;
+                height: 50px;
+                background-color: rgb(199,218,197);
+                margin-top: -290px;
+                margin-left: 375px;
+               
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+              }
+              
+              .input1{
+                margin-left: 375px;
+               width: 470px;
+               height: 30px;
+               border-radius: 8px;
+               margin-bottom: 30px;
+               border: 2px solid rgb(204,204,204);
+              }
+              
+              .resume{
+                width: 100px;
+                height: 40px;
+                background-color: #2a9439;
+                margin-left: 750px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 40px;
+                margin-top: -20px;
+              }
+
+
+              
+                  .existing{
+                 font-size: 20px;
+                 line-height: 21px;
+                 font-weight: 700;
+                 color: rgb(28,73,26);
+                 margin-left: 10px;
+                  }
+                  .mail{
+                    display: flex;
+                    margin-left:555px;
+                  }
+                  .solid{
+                    font-size: 16px;
+                    line-height: 30px;
+                    font-weight: 400;
+                    color: #535b60;
+                    margin-left: -175px;
+                  }
+            
+                  .address{
+                    font-size: 16px;
+                    line-height: 30px;
+                    font-weight: 700;
+                    color: #535b60;
+                  }
+                 
+                  
+                 
+                  .resum{
+                    text-decoration: none;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 23px;
+                    color: #ffffff;
+                  }
+                  
+            
+                  .forgot{
+                    margin-left: 375px;
+                    margin-top: -55px;
+                    }
+                  
+                    .forge{
+                        text-decoration: none;
+                        font-size: 13px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        color: #2f556d;
+                  }
+
+                  .nysc{
+                    display: flex;
+                    margin-left: 350px;
+                    margin-bottom: 50px;
+                }
+              
+    }
+    @media(max-width:610px){
+      .all{
+     
+      }
+      
+      .square{
+        width: 400px;
+      }
+      .user{
+       width: 380px;
+      }
+      .input1{
+        width: 375px;
+      }
+      .resume{
+        margin-left: 655px;
+      }
+    }
+
+    @media(max-width:462px){
+      .square{
+        width: 350px;
+      }
+      .user{
+       width: 330px;
+      }
+      .input1{
+        width: 325px;
+      }
+      .resume{
+        margin-left: 606px;
+      }
+      .fixed2{
+        text-align: center;
+      }
+
+     
+    }
+    
+
+    @media(max-width:392px){
+      .all{
+         
+      }
+
+      .square{
+          width: 300px;
+          height: 400px;
+          background-color: rgb(247,247,246);
+          margin-left: 380px;
+          border-radius: 10px;
+        
+          }
+          .user{
+              width: 280px;
+              height: 50px;
+              background-color: rgb(199,218,197);
+              margin-top: 50px;
+              margin-left: 390px;
+              margin-top: -380px;
+              border-radius: 10px;
+              display: flex;
+              align-items: center;
+              margin-bottom: 20px;
+            }
+           
+            
+            .input1{
+              margin-left: 390px;
+             width: 275px;
+             height: 30px;
+             border-radius: 8px;
+             margin-bottom: 30px;
+             border: 2px solid rgb(204,204,204);
+            }
+            
+            .resume{
+              width: 100px;
+              height: 40px;
+              background-color: #2a9439;
+              margin-left: 570px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-bottom: 40px;
+              margin-top: 10px;
+            }
+
+            .mail{
+              display: flex;
+              margin-left:570px;
+            }
+            .forgot{
+              margin-left: 390px;
+              margin-top: -10px;
+              }
+              .fixed2{
+                text-align: center;
+              }
+            
+  }
+  @media(max-width:419px){
+    .fixed2{
+      text-align: center;
+    }
+  }
+
+   
+   
+
+
+    
